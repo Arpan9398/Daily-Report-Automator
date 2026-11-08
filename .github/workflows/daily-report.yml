@@ -1,0 +1,61 @@
+name: Daily Report
+
+on:
+  schedule:
+    # GitHub Actions cron is in UTC. 02:00 UTC = 07:30 IST. Adjust as needed.
+    - cron: "0 2 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      report_date:
+        description: "Report date (YYYY-MM-DD). Leave empty for today (UTC)."
+        required: false
+        default: ""
+      send_email:
+        description: "Send the email?"
+        type: boolean
+        default: true
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build and email report
+        env:
+          # Add these under Settings > Secrets and variables > Actions
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_SECURITY: ${{ secrets.SMTP_SECURITY }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          DATA_DIR: ${{ vars.DATA_DIR || 'data/sample' }}
+        run: |
+          ARGS=""
+          if [ -n "${{ github.event.inputs.report_date }}" ]; then
+            ARGS="$ARGS --date ${{ github.event.inputs.report_date }}"
+          fi
+          if [ "${{ github.event.inputs.send_email }}" = "false" ]; then
+            ARGS="$ARGS --no-email"
+          fi
+          python main.py $ARGS
+
+      - name: Upload report artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: daily-report
+          path: output/
+          if-no-files-found: ignore
+          retention-days: 14

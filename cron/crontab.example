@@ -1,0 +1,12 @@
+# Daily Report Automator - cron example
+# Install with:  crontab -e   (paste the line below, adjust the path)
+#
+# Fields: minute hour day-of-month month day-of-week command
+# Runs Monday-Friday at 07:30 server time:
+30 7 * * 1-5 /absolute/path/to/daily-report-automator/scripts/run_daily.sh
+
+# Every day at 18:00:
+# 0 18 * * * /absolute/path/to/daily-report-automator/scripts/run_daily.sh
+#
+# Tip: cron uses a minimal environment, so the wrapper script activates .venv and
+# the app loads credentials from the project's .env file.

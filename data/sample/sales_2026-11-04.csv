@@ -1,0 +1,65 @@
+order_id,date,region,product,category,quantity,unit_price,payment_method
+ORD-1104-004,2026-11-04,North,Smartphone,Electronics,2,605.55,Bank Transfer
+ORD-1104-050,2026-11-04,West,Notebook Pack,Stationery,1,12.85,Credit Card
+ORD-1104-037,2026-11-04,West,Office Chair,Furniture,2,186.98,Credit Card
+ORD-1104-010,2026-11-04,East,Standing Desk,Furniture,4,353.84,Bank Transfer
+ORD-1104-031,2026-11-04,East,Laptop,Electronics,5,897.28,UPI
+ORD-1104-044,2026-11-04,North,Smartphone,Electronics,5,620.45,Cash
+ORD-1104-005,2026-11-04,South,Office Chair,Furniture,4,191.29,Bank Transfer
+,,,,,,,
+ORD-1104-046,2026-11-04,South,Office Chair,Furniture,5,195.07,Credit Card
+ORD-1104-045,2026-11-04,South,Standing Desk,Furniture,2,334.36,UPI
+ORD-1104-017,2026-11-04,West,Office Chair,Furniture,3,182.39,Credit Card
+ORD-1104-009,2026-11-04,East,Office Chair,Furniture,4,181.96,Bank Transfer
+ORD-1104-043,2026-11-04,South,Standing Desk,Furniture,1,353.67,Cash
+ORD-1104-002,2026-11-04,East,Pen Set,Stationery,5,8.69,Credit Card
+ORD-1104-018,2026-11-04,North,Headphones,Electronics,4,126.08,Cash
+ORD-1104-049,2026-11-04,West,Laptop,Electronics,3,899.34,UPI
+ORD-1104-015,2026-11-04,South,Office Chair,Furniture,2,189.30,UPI
+ORD-1104-023,2026-11-04,South,Pen Set,Stationery,2,8.88,
+ORD-1104-040,2026-11-04,North,Laptop,Electronics,3,901.62,Credit Card
+ORD-1104-052,2026-11-04,North,Laptop,Electronics,,855.07,Bank Transfer
+ORD-1104-014,2026-11-04,West,Standing Desk,Furniture,2,338.99,Bank Transfer
+ORD-1104-056,2026-11-04,West,Coffee Beans 1kg,Grocery,3,19.75,Credit Card
+ORD-1104-057,2026-11-04,West,Laptop,Electronics,3,N/A,Cash
+ORD-1104-025,2026-11-04,South,Standing Desk,Furniture,2,361.80,Credit Card
+ORD-1104-006,2026-11-04,South,Smartphone,Electronics,5,574.56,Cash
+ORD-1104-025,2026-11-04,,Standing Desk,Furniture,2,361.80,Credit Card
+ORD-1104-020,2026-11-04,North,Office Chair,Furniture,4,183.09,Bank Transfer
+ORD-1104-028,2026-11-04,South,Coffee Beans 1kg,Grocery,2,20.33,Cash
+ORD-1104-029,2026-11-04,South,Standing Desk,Furniture,4,365.96,UPI
+ORD-1104-041,2026-11-04,West,Laptop,Electronics,4,859.45,UPI
+ORD-1104-042,2026-11-04,,Coffee Beans 1kg,Grocery,2,19.41,UPI
+ORD-1104-048,2026-11-04,West,Headphones,Electronics,4,133.04,Credit Card
+ORD-1104-032,2026-11-04,East,Coffee Beans 1kg,Grocery,3,19.10,UPI
+ORD-1104-038,2026-11-04,East,Notebook Pack,Stationery,4,12.55,Credit Card
+ORD-1104-007,2026-11-04,South,Pen Set,Stationery,5,8.69,Bank Transfer
+ORD-1104-025,2026-11-04,South,Standing Desk,Furniture,2,361.80,Credit Card
+ORD-1104-034,2026-11-04,North,Headphones,Electronics,2,133.74,Bank Transfer
+ORD-1104-053,2026-11-04,South,Laptop,Electronics,2,872.55,UPI
+ORD-1104-055,2026-11-04,North,Laptop,Electronics,5,901.62,Credit Card
+ORD-1104-027,2026-11-04,  north , Coffee Beans 1kg  ,Grocery,3,19.99,Bank Transfer
+ORD-1104-051,2026-11-04,North,Pen Set,Stationery,4,8.72,Cash
+ORD-1104-016,2026-11-04,West,Headphones,Electronics,-2,125.52,Credit Card
+ORD-1104-013,2026-11-04,East,Headphones,Electronics,1,132.59,Bank Transfer
+ORD-1104-039,2026-11-04,West,Laptop,Electronics,2,855.71,Bank Transfer
+ORD-1104-008,2026-11-04,South,Pen Set,Stationery,2,8.63,Credit Card
+ORD-1104-003,2026-11-04,West,Headphones,Electronics,4,125.48,UPI
+ORD-1104-012,2026-11-04,North,Notebook Pack,Stationery,4,12.02,
+ORD-1104-059,2026-11-04,East,Standing Desk,Furniture,2,337.07,Cash
+ORD-1104-036,2026-11-04,East,Standing Desk,Furniture,3,365.21,UPI
+ORD-1104-021,2026-11-04,South,Office Chair,Furniture,3,181.31,UPI
+ORD-1104-001,2026-11-04,South,Notebook Pack,Stationery,5,12.77,UPI
+ORD-1104-033,2026-11-04,North,Standing Desk,Furniture,1,335.81,UPI
+ORD-1104-010,2026-11-04,East,Standing Desk,Furniture,4,353.84,Bank Transfer
+ORD-1104-022,2026-11-04,West,Pen Set,Stationery,2,8.32,Cash
+ORD-1104-030,2026-11-04,North,Smartphone,Electronics,5,614.25,Bank Transfer
+ORD-1104-026,2026-11-04,South,Office Chair,Furniture,2,188.08,Bank Transfer
+ORD-1104-054,2026-11-04,East,Pen Set,Stationery,5,9.05,UPI
+ORD-1104-035,2026-11-04,West,Office Chair,Furniture,2,194.57,Bank Transfer
+ORD-1104-024,2026-11-04,North,Headphones,Electronics,1,128.67,UPI
+ORD-1104-019,2026-11-04,West,Coffee Beans 1kg,Grocery,2,19.76,Cash
+ORD-1104-011,2026-11-04,West,Office Chair,Furniture,2,193.59,UPI
+ORD-1104-058,2026-11-04,East,Standing Desk,Furniture,1,362.83,UPI
+ORD-1104-003,2026-11-04,West,Headphones,Electronics,9,125.48,UPI
+ORD-1104-047,2026-11-04,West,Office Chair,Furniture,5,196.97,UPI
